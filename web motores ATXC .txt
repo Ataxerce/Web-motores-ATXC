@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercício de CSS</title>
+
+  <style>
+    /* Seletor por TAG */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: blue;
+      text-align: center;
+    }
+
+    /* Seletor por CLASSE */
+    .destaque {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* Seletor por ID */
+    #rodape {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Seletor por TAG */
+    h2 {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> LOJAS MOTORES WEB </h1>
+  <p>Confira alguns produtos:</p>
+
+  <h2>Turbocompressor </h2>
+  <p> Um equipamento adicionado aos motores de combustão interna que aproveita os gases de escape para injetar ar nos cilindros.</p>
+  <p>  Diners 2 vezes sem juros	R$ 1.536,65 </p>
+ <p> Diners 3 vezes sem juros	R$ 1.024,43 </p>
+ <p> Diners 4 vezes com juros	R$ 849,87 </p>
+ <p> Diners 5 vezes com juros	R$ 724,76</p>
+
+  <h2 class="destaque">Cilindros</h2>
+  <p>motores com 3, 6, 8 ou mais cilindros, como os motores 1.0, 1.6, 2.0, 3.0,</p>
+  <p>O custo para retificar um cilindro pode variar bastante, mas, em média, o preço fica entre R$ 400,00 e R$ 1.200,00, dependedo de quantos cilindros.</p>
+
+  <h2>Escapamento</h2>
+  <p>O tubo de escape ou escapamento é um tubo condutor que possibilita a um veículo a motor encaminhar os gases do resultado da combustão para fora do ambiente do motor, além de influenciar no desenvolvimento do motor.</p>
+  <p> preço de um lado R$ 1.187,50.</p>
+  <p> 2 escapamento R$ 1.784,90</p>
+  <div id="rodape">
+    © 2025 MOTORES WEB
+  </div>
+
+</body>
+</html>
